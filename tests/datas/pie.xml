@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<inse:PdfGeneration timeFormat="%d/%m/%y" reportType="report1" locale="tr" orientation="portrait" title="tset" chartType="PIE" xmlns:inse="http://ws.inseptra.com/">
+
+    <inse:Data>
+
+        <inse:Ranking xmlns:inse="http://ws.inseptra.com/">
+            <inse:Rank category="HTTPS">
+                <inse:DataTraffic download="1769193" duration="17146" inboundThroughput="4288.0" interval="3300" outboundThroughput="1812.0" packetsDownloaded="4201" packetsTotal="7562" packetsUploaded="3361" sessionCount="132" throughput="6101.0" upload="747490"/>
+            </inse:Rank>
+            <inse:Rank category="HTTP">
+                <inse:DataTraffic download="571310" duration="5741" inboundThroughput="1384.0" interval="3300" outboundThroughput="320.0" packetsDownloaded="678" packetsTotal="1293" packetsUploaded="615" sessionCount="41" throughput="1705.0" upload="132125"/>
+            </inse:Rank>
+            <inse:Rank category="SKYPE">
+                <inse:DataTraffic download="1620" duration="120" inboundThroughput="3.0" interval="3300" outboundThroughput="4.0" packetsDownloaded="2" packetsTotal="6" packetsUploaded="4" sessionCount="1" throughput="8.0" upload="1879"/>
+            </inse:Rank>
+            <inse:Total download="2342123" duration="23007" inboundThroughput="5677.0" interval="3300" outboundThroughput="2136.0" packetsDownloaded="4881" packetsTotal="8861" packetsUploaded="3980" sessionCount="174" throughput="7814.0" upload="881494"/>
+        </inse:Ranking>
+
+    </inse:Data>
+
+</inse:PdfGeneration>
