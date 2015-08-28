@@ -62,7 +62,7 @@ Project/
 |   |   |-- Ranking-report1-tr.xsl
 ```
 
-You can think that the resources folder is like a repository of config files. Your pie chart report config files are in `chart/pie and time charts are in `chart/time` folder. But you must be careful about its format.
+You can think that the resources folder is like a repository of config files. Your config files of pie chart reports are in `chart/pie and time charts are in `chart/time` folder. But you must be careful about its format.
 
 The format is like this.
 
@@ -112,7 +112,7 @@ According to this example, our project name is `Ranking` because of the path of 
 
 and
 
->`timeFormat="%d/%m/%y")
+>timeFormat="%d/%m/%y"
 
 >reportType="report1"
 
@@ -122,7 +122,7 @@ and
 
 >title="Your Report Title"
 
->`chartType:"PIE"
+>chartType:"PIE"
 
 so the application will use `resources/chart/pie/Ranking-report1.xsl` for transforming input data and after transformation, will use `resources/pdf/Ranking-report1-tr.xsl` for creating pdf file.
 
