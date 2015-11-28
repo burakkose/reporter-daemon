@@ -28,7 +28,7 @@ or
 
 ##Test
 
-There are test data in the test folder. You can run a code like that.
+There are test data in the test folder. You can run code like that.
 
 For a pie chart
 ```
@@ -44,7 +44,7 @@ python reporter/reporter.py tests/datas/time.xml .
 
 ## Customization
 
-The project based on XSL technology. If you want to create your personal report, you should change some files so you have to know some basic XSL. The structure of resource folder is like this.
+The project based on XSL technology. If you want to create your personal report, you should change some files, so you have to know some basic XSL. The structure of resource folder is like this.
 ```
 Project/
 |-- resources/
@@ -62,17 +62,17 @@ Project/
 |   |   |-- Ranking-report1-tr.xsl
 ```
 
-You can think that the resources folder is like a repository of config files. Your config files of pie chart reports are in `chart/pie and time charts are in `chart/time` folder. But you must be careful about its format.
+You can think that the resources folder is like a repository of config files. Your config files of pie chart reports are in `chart/pie and time charts are in `chart/time` folder. However, you must be careful about its format.
 
 The format is like this.
 
 `{project-name}-{reportType}.xsl`
 
-`pdf` folder is a repository of your output styles and It allows many languages that you want. But again, you must be careful about its format. You can examine the difference between file of `Ranking-report1-en.xsl` and file of `Ranking-report1-tr.xsl`.
+`pdf` folder is a repository of your output styles, and It allows many languages that you want. However, again, you must be careful about its format. You can examine the difference of files between `Ranking-report1-en.xsl` and `Ranking-report1-tr.xsl`.
 
 `{project-name}-{reportType}-{locale}.xsl` In the next sections, you will see what it means.
 
-You can set some settings in your input xml file that you can see at `tests/datas/pie.xml` or `time.xml`.
+You can set some settings in your input XML file that you can see at `tests/datas/pie.xml` or `time.xml`.
 
 >`timeFormat` (example : timeFormat="%d/%m/%y")
 
@@ -124,8 +124,8 @@ and
 
 >chartType:"PIE"
 
-so the application will use `resources/chart/pie/Ranking-report1.xsl` for transforming input data and after transformation, will use `resources/pdf/Ranking-report1-tr.xsl` for creating pdf file.
+so the application uses `resources/chart/pie/Ranking-report1.xsl` for transforming input data and after transformation uses `resources/pdf/Ranking-report1-tr.xsl` for creating a pdf file.
 
 ##TODOs
-* Adjust namespaces of the input xml files, I know it is complicated.
+* Adjust namespaces of the XML input files, I know it is complicated.
 * Do human readable config setting
